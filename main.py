@@ -1,8 +1,8 @@
-from clases import  areas  
+from clases.areas import  Area
 
 def main():
-   area.triangulo(3,4)
-   area.rectangulo(3,4)
-
+   Area.triangulo(3,4)
+   Area.rectangulo(3,4)
+   Area.circulo(3,4)
 if __name__ == "__main__":
     main()
