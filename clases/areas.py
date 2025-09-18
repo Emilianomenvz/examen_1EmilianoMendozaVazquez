@@ -11,5 +11,9 @@ class Area():
      def rectangulo(self):
           a=self.__x * self.__y
           return a
+     
+     def circulo (self):
+          a=3.1416*(self.__x**2)
+          return a
           
           
